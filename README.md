@@ -11,4 +11,6 @@
 
 ## 🚀 Quick Start
 
+git clone github.com/heydevelopergit/SpaceD.git
+cd ~/SpaceD
 docker run -it --privileged -v ~/data:/dat spaced:latest
