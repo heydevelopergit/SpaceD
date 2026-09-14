@@ -11,4 +11,4 @@
 
 ## 🚀 Quick Start
 
-git clone github.com/heydevelopergit/SpaceD.git && cd ~/SpaceD && docker run -it --privileged -v ~/data:/dat spaced:latest
+git clone github.com/heydevelopergit/SpaceD.git && cd ~/SpaceD && mkdir release && cp release.zip release/ && cd release && unzip release.zip && rm -rf release.zip && docker build -t spaced:latest . && docker run -it --privileged -v ~/data:/dat spaced:latest
