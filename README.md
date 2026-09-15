@@ -9,10 +9,10 @@
 
 ---
 
-## 🚀 Quick Start (Local Build)
+## 🚀 Quick Start (Local Build) - Recommended
 
 git clone https://github.com/heydevelopergit/SpaceD && cd SpaceD && mkdir release && cp release.zip release/ && cd release && unzip release.zip && rm -rf release.zip && docker build -t spaced:latest . && docker run -it --privileged -v ~/data:/dat spaced:latest
 
-## 🚀 Quick Start (Docker Build) - Recommended
+## 🚀 Quick Start (Docker Build)
 
 docker pull heydevelopergit/spaced
